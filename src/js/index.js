@@ -14,11 +14,11 @@ botaoAlternarTema.addEventListener("click", () => {
 
     if(modoEscuroEstaAtivo){
         //body.classList.remove("modo-escuro");
-        imagemBotaoTrocaDeTema.setAttribute("src", "imagens/sun.png");
+        imagemBotaoTrocaDeTema.setAttribute("src", "./src/imagens/sun.png");
     } else {
 
         //body.classList.add("modo-escuro");
-        imagemBotaoTrocaDeTema.setAttribute("src", "imagens/moon.png");
+        imagemBotaoTrocaDeTema.setAttribute("src", "./src/imagens/moon.png");
     }
     
 
